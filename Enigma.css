@@ -115,4 +115,7 @@ button[type=submit] {
     grid-area: 4 / 1 / 5 / 3;
     border: 1px white solid;
     border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
