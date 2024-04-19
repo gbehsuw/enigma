@@ -212,5 +212,9 @@ document.getElementById("inputMessage").addEventListener("submit", function (eve
 
   // output message to html element
   document.getElementById("outputMessage").innerHTML = newMessage;
+    document.querySelector(".stats").innerHTML = `
+  Plugboard: ${plugBoard.toString()}
+  Reverser: ${alphaReverser.toString()}
+  `;
 });
 
