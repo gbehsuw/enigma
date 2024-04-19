@@ -80,6 +80,8 @@ textarea:focus {
 
 .input { 
     grid-area: 2 / 1 / 4 / 2; 
+    background: -webkit-linear-gradient(180deg, #f43838, #ffa75f);
+    color: black;
 }
 
 #inputMessage {
